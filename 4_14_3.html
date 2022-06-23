@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Таблицы синусов и т.д.</h1>
+    <table>
+        <script>
+            let arr = [0,15,30,45,60,75,90];
+           
+            for(let i=0;i<arr.length;i++){
+                document.write("<tr><td>"+arr[i]+" </td><td>"+Math.sin(arr[i])+"</td></tr>");
+            }
+           
+            for(let i=0;i<arr.length;i++){
+                document.write("<tr><td>"+arr[i]+" </td><td>"+Math.cos(arr[i])+"</td></tr>");
+            }
+           
+            for(let i=0;i<arr.length;i++){
+                document.write("<tr><td>"+arr[i]+" </td><td>"+Math.tan(arr[i])+"</td></tr>");
+            }
+            document.write(Math.sin(30));
+            
+        </script>
+    </table>
+</body>
+</html>
